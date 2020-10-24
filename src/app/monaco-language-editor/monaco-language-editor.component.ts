@@ -78,7 +78,7 @@ export class MonacoLanguageEditorComponent implements OnInit {
     return langs[this.languageId];
   }
   public createUrl(): string {
-    return 'ws://13.235.248.167:3000/' + this.languageId + '?userId=' + this.userId + '&uuid=' + this.uuid + '&main=' + this.config.main ;
+    return 'ws://lsp-elb-dev-93476858.ap-south-1.elb.amazonaws.com/' + this.languageId + '?userId=' + this.userId + '&uuid=' + this.uuid + '&main=' + this.config.main ;
     // return 'ws://localhost:3000/' + this.languageId + '?userId=' + this.userId + '&uuid=' + this.uuid ;
   }
 
