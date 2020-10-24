@@ -14,6 +14,11 @@ export class LanguagesComponent implements OnInit {
       description: 'C Programming.'
     },
     {
+      id: 'cpp',
+      name: 'CPP programming',
+      description: 'CPP Programming.'
+    },
+    {
       id: 'java',
       name: 'Java Programming',
       description: 'Java Programming.'
@@ -43,7 +48,22 @@ export class LanguagesComponent implements OnInit {
       id: 'php',
       name: 'PHP programming',
       description: 'PHP.'
-    }
+    },
+    {
+      id: 'lua',
+      name: 'Lua programming',
+      description: 'Lua.'
+    },
+    {
+      id: 'ruby',
+      name: 'Ruby programming',
+      description: 'Ruby.'
+    }/*,
+    {
+      id: 'rust',
+      name: 'Rust programming',
+      description: 'Rust.'
+    }*/
   ];
 
   constructor() { }

@@ -1,10 +1,10 @@
-# angular-monaco-languageclient
+# angular-monaco-demo
 
 **Update: Upgrade to Angular 9 now.**
 
 **Star this repo if it helps you**
 
-[![cpgif](https://github.com/Louis-7/angular-monaco-languageclient/blob/master/languageclient.gif?raw=true)](https://github.com/Louis-7/angular-monaco-languageclient)
+[![cpgif](https://github.com/Louis-7/angular-monaco-demo/blob/master/languageclient.gif?raw=true)](https://github.com/Louis-7/angular-monaco-demo)
 
 A Monaco editor (with the ability to connect to a language server) based on Angular framework. This project is an example to show how to use [ngx-monaco-editor](https://github.com/atularen/ngx-monaco-editor) with [monaco-languageclient](https://github.com/TypeFox/monaco-languageclient) together, there are some errors when I use these libraries together, so this project is to show which version of these libraries you should use and how to connect your Monaco editor to language server. If you're trying to build a code editor/IDE based on Angular and connect to a language server, this project could be a good start.
 
@@ -19,7 +19,7 @@ If you just need to use Monaco Editor with Angular, you should go to [ngx-monaco
 
 Install from the repository:
 
-`git clone https://github.com/Louis-7/angular-monaco-languageclient.git`
+`git clone https://github.com/Louis-7/angular-monaco-demo.git`
 
 Install dependencies:
 

@@ -3108,7 +3108,13 @@ binding_irb.run(IRB.conf)
       uninstall: 'gem uninstall --user-install NAME',
       search: `curl -sS 'https://rubygems.org/api/v1/search.json?query=NAME' | jq -r 'map(.name) | .[]'`,
     },
-    lsp: { start: 'solargraph stdio' },
+    lsp: {
+      start: 'solargraph stdio',
+      init: {
+        useBundler: true,
+        diagnostics: true
+      }
+    },
     template: `puts "Hello, world!"
 `,
     skip: ['repl', 'runrepl', 'scope', 'lsp'],
@@ -3120,7 +3126,9 @@ binding_irb.run(IRB.conf)
     main: 'main.rs',
     compile: 'rustc main.rs',
     run: './main',
-    lsp: { start: 'rls' },
+    lsp: {
+      start: 'rls',
+    },
     template: `fn main() {
     println!("Hello, world!");
 }
