@@ -1333,11 +1333,20 @@ func main() {
     },
     lsp: {
       init: {
-        diagnosticsEnabled: true,
-        funcSnippetEnabled: true,
-        gocodeCompletionEnabled: true,
-        formatTool: 'gofmt',
-        lintTool: 'golint'
+        /*go-lanserver options */
+         /*gocodeCompletionEnabled: true,
+         funcSnippetEnabled: true,
+         formatTool: 'gofmt',
+        /!* lintTool: 'golint',*!/
+        diagnosticsEnabled: true*/
+
+        /*toolsGopath: '/home/ubuntu/demo/go',
+        useCodeSnippetsOnFunctionSuggest: true,
+        useLanguageServer: true,
+        formatTool: 'gofmt',*/
+        /*usePlaceholders: true, // add parameter placeholders when completing a function
+        enhancedHover: true,
+        diagnostics: true*/
       },
       start: 'gopls'
       },
